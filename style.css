@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+}
+
+footer,
+header {
+    border: 1px solid red;
+}
+
+footer >div,
+header nav {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.welcome img {
+    display: block;
+    width: 100%;
+}
